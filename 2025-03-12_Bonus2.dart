@@ -1,7 +1,14 @@
 // Erstelle zwei Funktionen:
-void printGrades(List<int> grades = [2, 1, 3, 5, 4]);
+
+void main() {
+  printGrades(List<int>[2, 1, 3, 2, 4]);
+}
+
+
+
+void printGrades() {(List<int> grades) {
   for (int i = 0; i < grades.length; i++) {
-    print("Note $i+1): ${grades[i]}");
+    print("Note ${i + 1}: ${grades[i]}");
   }
 
 
@@ -18,7 +25,3 @@ void printGrades(List<int> grades = [2, 1, 3, 5, 4]);
 // void analyzeGrades(List<int> grades) {
 // Ruft beide Funktionen nacheinander auf
 // }
-
-void main() {
-  printGrades();
-}
