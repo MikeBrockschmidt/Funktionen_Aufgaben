@@ -5,7 +5,3 @@ void main() {
 }
 
 //--------------------------------
-
-void triplePrint(String text) {
-  print("$text");
-}
