@@ -1,4 +1,4 @@
-void letzteBuchstaben(String vorname, String nachname) {
+void reverseInitials(String vorname, String nachname) {
   String initialenVorname = "${vorname[vorname.length - 1].toUpperCase()}";
   String initialenNachname = "${nachname[nachname.length - 1].toUpperCase()}";
 
@@ -6,7 +6,7 @@ void letzteBuchstaben(String vorname, String nachname) {
 }
 
 void main() {
-  letzteBuchstaben("Max", "Mustermann");
-  letzteBuchstaben("Martha", "Brockschmidt");
-  letzteBuchstaben("John", "Doe");
+  reverseInitials("Max", "Mustermann");
+  reverseInitials("Martha", "Brockschmidt");
+  reverseInitials("John", "Doe");
 }
